@@ -6,16 +6,19 @@
   color: #00252e; }
 
 body {
-  width: 100vw; }
+  width: 100vw;
+  overflow-x: hidden;
+  z-index: -500;
+  position: relative; }
   body header {
-    height: 113.5vh;
+    height: 125.5vh;
     background-image: url(../images/bg-hero-mobile.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #ebfbff; }
     @media only screen and (min-width: 1440px) {
       body header {
-        height: 87vh; } }
+        height: 90vh; } }
     body header .logo-container {
       display: flex;
       align-items: center;
@@ -52,6 +55,9 @@ body {
           body header .logo-container button {
             padding: 0.75rem 3rem;
             font-size: 0.8rem; } }
+        body header .logo-container button:hover {
+          cursor: pointer;
+          color: #808d99; }
     body header .banner {
       display: flex;
       flex-direction: column;
@@ -67,12 +73,14 @@ body {
         body header .banner__text {
           width: 40%;
           padding: 0 0rem 0 3rem;
-          text-align: left; } }
+          text-align: left;
+          margin-top: 6rem; } }
       body header .banner__text h2 {
         font-family: 'Poppins', sans-serif;
         font-weight: 600;
         font-size: 1.4rem;
-        margin: 3rem 0 1rem 0; }
+        margin: 4.5rem 0 1rem 0;
+        font-size: 1rem; }
         @media only screen and (min-width: 1440px) {
           body header .banner__text h2 {
             font-size: 2.25rem;
@@ -81,14 +89,15 @@ body {
         font-family: 'Open Sans', sans-serif;
         font-size: 0.9rem;
         padding: 0 1rem;
-        margin-bottom: 2rem; }
+        margin-bottom: 3rem; }
         @media only screen and (min-width: 1440px) {
           body header .banner__text p {
             padding: 0;
-            font-size: 1rem; } }
+            font-size: 1rem;
+            margin-bottom: 2rem; } }
       body header .banner__text button {
         background-color: #ff52bf;
-        padding: 0.7rem 3.5rem;
+        padding: 0.8rem 3.5rem;
         color: white;
         font-size: 0.6rem;
         font-weight: 700;
@@ -103,6 +112,9 @@ body {
           body header .banner__text button {
             padding: 1.1rem 4.25rem;
             font-size: 0.7rem; } }
+        body header .banner__text button:hover {
+          background-color: #ffa3dd;
+          cursor: pointer; }
       @media only screen and (min-width: 1440px) {
         body header .banner__img {
           width: 50%;
@@ -110,12 +122,12 @@ body {
           justify-content: flex-end;
           padding-right: 4rem; } }
       body header .banner__img img {
-        width: 100%; }
+        width: 85%; }
         @media only screen and (min-width: 1440px) {
           body header .banner__img img {
-            width: 70%;
+            width: 90%;
             height: auto;
-            margin-top: 1rem; } }
+            margin-top: 2rem; } }
   body main .cards-container {
     display: flex;
     flex-direction: column;
@@ -178,13 +190,16 @@ body {
             justify-content: center;
             align-items: start; } }
         body main .cards-container__card .card-text h4 {
+          font-size: 1.25rem;
           font-family: 'Poppins', sans-serif;
           font-weight: 600;
-          margin-bottom: 1rem;
-          font-size: 1.5rem; }
+          margin-bottom: 1rem; }
+          @media only screen and (min-width: 1440px) {
+            body main .cards-container__card .card-text h4 {
+              font-size: 1.5rem; } }
         body main .cards-container__card .card-text p {
           font-family: 'Open Sans', sans-serif;
-          font-size: 0.8rem;
+          font-size: 0.9rem;
           color: #808d99; }
           @media only screen and (min-width: 1440px) {
             body main .cards-container__card .card-text p {
@@ -201,7 +216,7 @@ body {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      padding: 2.5rem 0.5rem 2.25rem 0.5rem;
+      padding: 3rem 0.5rem 3rem 0.5rem;
       border-radius: 18px;
       -webkit-border-radius: 18px;
       -moz-border-radius: 18px;
@@ -218,14 +233,15 @@ body {
         font-family: 'Poppins', sans-serif;
         font-weight: 600;
         margin-bottom: 1.25rem;
-        text-align: center; }
+        text-align: center;
+        font-size: 1.2rem; }
         @media only screen and (min-width: 1440px) {
           body main .cta-container .cta h4 {
             font-size: 1.75rem;
             margin-bottom: 1.5rem; } }
       body main .cta-container .cta button {
         background-color: #ff52bf;
-        padding: 0.7rem 3.5rem;
+        padding: 0.8rem 3.5rem;
         color: white;
         font-size: 0.6rem;
         font-weight: 700;
@@ -240,6 +256,9 @@ body {
           body main .cta-container .cta button {
             padding: 1.1rem 4.25rem;
             font-size: 0.7rem; } }
+        body main .cta-container .cta button:hover {
+          background-color: #ffa3dd;
+          cursor: pointer; }
         @media only screen and (min-width: 1440px) {
           body main .cta-container .cta button {
             padding: 1.5rem 5.5rem;
@@ -296,9 +315,10 @@ body {
           color: white;
           width: 88%;
           font-family: 'Open Sans', sans-serif;
-          font-size: 0.9rem; }
+          font-size: 1rem; }
           @media only screen and (min-width: 1440px) {
             body footer .footer-content__contact li p {
+              font-size: 0.9rem;
               width: 75%; } }
     body footer .footer-content__sitemap {
       list-style: none;
@@ -326,6 +346,9 @@ body {
           text-decoration: none;
           font-family: 'Open Sans', sans-serif;
           font-size: 1rem; }
+          body footer .footer-content__sitemap ul li a:hover {
+            text-decoration: underline;
+            cursor: pointer; }
     body footer .footer-content__social {
       display: flex;
       justify-content: center;
@@ -336,7 +359,7 @@ body {
           justify-content: start; } }
       body footer .footer-content__social a {
         text-decoration: none;
-        border: 1px solid white;
+        border: 2px solid white;
         border-radius: 50%;
         -webkit-border-radius: 50%;
         -moz-border-radius: 50%;
@@ -351,6 +374,10 @@ body {
         margin: 0.5rem 0.4rem 1rem 0.4rem; }
         body footer .footer-content__social a:first-child {
           margin-left: 4rem; }
+        body footer .footer-content__social a:hover {
+          border: 2px solid #ff52bf; }
+          body footer .footer-content__social a:hover i {
+            color: #ff52bf; }
         body footer .footer-content__social a i {
           color: white; }
     body footer .copy {
