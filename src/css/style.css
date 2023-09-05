@@ -10,7 +10,7 @@ body {
   overflow-x: hidden;
   z-index: -500;
   position: relative; }
-  @media only screen and (min-width: 1440px) {
+  @media only screen and (min-width: 769px) {
     body {
       width: 1440px;
       display: flex;
@@ -23,7 +23,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #ebfbff; }
-    @media only screen and (min-width: 1440px) {
+    @media only screen and (min-width: 769px) {
       body header {
         height: 90vh;
         background-color: white; } }
@@ -33,7 +33,7 @@ body {
       justify-content: space-between;
       height: 12vh;
       padding: 0 1rem; }
-      @media only screen and (min-width: 1440px) {
+      @media only screen and (min-width: 769px) {
         body header .logo-container {
           height: 18vh;
           padding: 0 5.5rem 0 4rem; } }
@@ -41,7 +41,7 @@ body {
         width: 50%; }
         body header .logo-container a img {
           width: 55%; }
-          @media only screen and (min-width: 1440px) {
+          @media only screen and (min-width: 769px) {
             body header .logo-container a img {
               width: 31%; } }
       body header .logo-container button {
@@ -59,7 +59,7 @@ body {
         box-shadow: 0px 3px 13px -7px rgba(0, 0, 0, 0.5);
         font-size: 0.6rem;
         font-weight: 600; }
-        @media only screen and (min-width: 1440px) {
+        @media only screen and (min-width: 769px) {
           body header .logo-container button {
             padding: 0.75rem 3rem;
             font-size: 0.8rem; } }
@@ -72,12 +72,12 @@ body {
       align-items: center;
       text-align: center;
       padding: 0 1rem; }
-      @media only screen and (min-width: 1440px) {
+      @media only screen and (min-width: 769px) {
         body header .banner {
           flex-direction: row;
           height: 69vh;
           align-items: start; } }
-      @media only screen and (min-width: 1440px) {
+      @media only screen and (min-width: 769px) {
         body header .banner__text {
           width: 40%;
           padding: 0 0rem 0 3rem;
@@ -89,7 +89,7 @@ body {
         font-size: 1.4rem;
         margin: 4.5rem 0 1rem 0;
         font-size: 1rem; }
-        @media only screen and (min-width: 1440px) {
+        @media only screen and (min-width: 769px) {
           body header .banner__text h2 {
             font-size: 2.25rem;
             margin: 0rem 0 1.5rem 0; } }
@@ -98,7 +98,7 @@ body {
         font-size: 0.9rem;
         padding: 0 1rem;
         margin-bottom: 3rem; }
-        @media only screen and (min-width: 1440px) {
+        @media only screen and (min-width: 769px) {
           body header .banner__text p {
             padding: 0;
             font-size: 1rem;
@@ -116,14 +116,14 @@ body {
         -moz-box-shadow: 0px 3px 13px -7px rgba(0, 0, 0, 0.5);
         box-shadow: 0px 3px 13px -7px rgba(0, 0, 0, 0.5);
         margin-bottom: 3rem; }
-        @media only screen and (min-width: 1440px) {
+        @media only screen and (min-width: 769px) {
           body header .banner__text button {
             padding: 1.1rem 4.25rem;
             font-size: 0.7rem; } }
         body header .banner__text button:hover {
           background-color: #ffa3dd;
           cursor: pointer; }
-      @media only screen and (min-width: 1440px) {
+      @media only screen and (min-width: 769px) {
         body header .banner__img {
           width: 50%;
           display: flex;
@@ -131,12 +131,12 @@ body {
           padding-right: 4rem; } }
       body header .banner__img img {
         width: 85%; }
-        @media only screen and (min-width: 1440px) {
+        @media only screen and (min-width: 769px) {
           body header .banner__img img {
             width: 90%;
             height: auto;
             margin-top: 2rem; } }
-  @media only screen and (min-width: 1440px) {
+  @media only screen and (min-width: 769px) {
     body main {
       background-color: white; } }
   body main .cards-container {
@@ -146,7 +146,7 @@ body {
     align-items: center;
     padding: 3.5rem 1rem;
     gap: 2rem; }
-    @media only screen and (min-width: 1440px) {
+    @media only screen and (min-width: 769px) {
       body main .cards-container {
         padding: 3.5rem 5.5rem; } }
     body main .cards-container__card {
@@ -164,7 +164,7 @@ body {
       -webkit-box-shadow: 0px 3px 13px -7px rgba(0, 0, 0, 0.5);
       -moz-box-shadow: 0px 3px 13px -7px rgba(0, 0, 0, 0.5);
       box-shadow: 0px 3px 13px -7px rgba(0, 0, 0, 0.5); }
-      @media only screen and (min-width: 1440px) {
+      @media only screen and (min-width: 769px) {
         body main .cards-container__card {
           flex-direction: row;
           min-height: 18.5rem;
@@ -177,7 +177,7 @@ body {
               justify-content: end; }
             body main .cards-container__card:nth-of-type(odd) .card-text {
               width: 45%; } }
-      @media only screen and (min-width: 1440px) {
+      @media only screen and (min-width: 769px) {
         body main .cards-container__card .card-img {
           display: flex;
           justify-content: center;
@@ -186,13 +186,13 @@ body {
       body main .cards-container__card .card-img img {
         width: 90%;
         margin-bottom: 3rem; }
-        @media only screen and (min-width: 1440px) {
+        @media only screen and (min-width: 769px) {
           body main .cards-container__card .card-img img {
             width: 70%;
             margin-bottom: auto; } }
       body main .cards-container__card .card-text {
         text-align: center; }
-        @media only screen and (min-width: 1440px) {
+        @media only screen and (min-width: 769px) {
           body main .cards-container__card .card-text {
             width: 42%;
             text-align: start;
@@ -205,19 +205,19 @@ body {
           font-family: 'Poppins', sans-serif;
           font-weight: 600;
           margin-bottom: 1rem; }
-          @media only screen and (min-width: 1440px) {
+          @media only screen and (min-width: 769px) {
             body main .cards-container__card .card-text h4 {
               font-size: 1.5rem; } }
         body main .cards-container__card .card-text p {
           font-family: 'Open Sans', sans-serif;
           font-size: 0.9rem;
           color: #808d99; }
-          @media only screen and (min-width: 1440px) {
+          @media only screen and (min-width: 769px) {
             body main .cards-container__card .card-text p {
               font-size: 1rem; } }
   body main .cta-container {
     padding: 3.5rem 1rem; }
-    @media only screen and (min-width: 1440px) {
+    @media only screen and (min-width: 769px) {
       body main .cta-container {
         display: flex;
         justify-content: center; } }
@@ -236,7 +236,7 @@ body {
       -webkit-box-shadow: 0px 3px 13px -7px rgba(0, 0, 0, 0.5);
       -moz-box-shadow: 0px 3px 13px -7px rgba(0, 0, 0, 0.5);
       box-shadow: 0px 3px 13px -7px rgba(0, 0, 0, 0.5); }
-      @media only screen and (min-width: 1440px) {
+      @media only screen and (min-width: 769px) {
         body main .cta-container .cta {
           width: 55%;
           padding: 2.5rem 0.5rem 3rem 0.5rem; } }
@@ -246,7 +246,7 @@ body {
         margin-bottom: 1.25rem;
         text-align: center;
         font-size: 1.2rem; }
-        @media only screen and (min-width: 1440px) {
+        @media only screen and (min-width: 769px) {
           body main .cta-container .cta h4 {
             font-size: 1.75rem;
             margin-bottom: 1.5rem; } }
@@ -263,14 +263,14 @@ body {
         -moz-box-shadow: 0px 3px 13px -7px rgba(0, 0, 0, 0.5);
         box-shadow: 0px 3px 13px -7px rgba(0, 0, 0, 0.5);
         font-size: 0.55rem; }
-        @media only screen and (min-width: 1440px) {
+        @media only screen and (min-width: 769px) {
           body main .cta-container .cta button {
             padding: 1.1rem 4.25rem;
             font-size: 0.7rem; } }
         body main .cta-container .cta button:hover {
           background-color: #ffa3dd;
           cursor: pointer; }
-        @media only screen and (min-width: 1440px) {
+        @media only screen and (min-width: 769px) {
           body main .cta-container .cta button {
             padding: 1.5rem 5.5rem;
             font-size: 1rem; } }
@@ -280,7 +280,7 @@ body {
     position: relative;
     z-index: -500;
     padding: 7.5rem 1rem 0 1rem; }
-    @media only screen and (min-width: 1440px) {
+    @media only screen and (min-width: 769px) {
       body footer {
         margin-top: -8.5rem;
         padding: 10.5rem 1rem 0 7rem; } }
@@ -293,14 +293,14 @@ body {
         -moz-transform: scale(0.7) translate(-22%);
         -ms-transform: scale(0.7) translate(-22%);
         -o-transform: scale(0.7) translate(-22%); }
-        @media only screen and (min-width: 1440px) {
+        @media only screen and (min-width: 769px) {
           body footer .footer-logo svg {
             transform: scale(1) translate(0%);
             -webkit-transform: scale(1) translate(0%);
             -moz-transform: scale(1) translate(0%);
             -ms-transform: scale(1) translate(0%);
             -o-transform: scale(1) translate(0%); } }
-    @media only screen and (min-width: 1440px) {
+    @media only screen and (min-width: 769px) {
       body footer .footer-content {
         display: flex;
         justify-content: space-between;
@@ -308,7 +308,7 @@ body {
     body footer .footer-content__contact {
       list-style: none;
       margin-bottom: 3.5rem; }
-      @media only screen and (min-width: 1440px) {
+      @media only screen and (min-width: 769px) {
         body footer .footer-content__contact {
           width: 38%; } }
       body footer .footer-content__contact li {
@@ -319,7 +319,7 @@ body {
         body footer .footer-content__contact li svg {
           width: 12%;
           margin-top: 0.25rem; }
-          @media only screen and (min-width: 1440px) {
+          @media only screen and (min-width: 769px) {
             body footer .footer-content__contact li svg {
               width: 8%; } }
         body footer .footer-content__contact li p {
@@ -327,17 +327,17 @@ body {
           width: 88%;
           font-family: 'Open Sans', sans-serif;
           font-size: 1rem; }
-          @media only screen and (min-width: 1440px) {
+          @media only screen and (min-width: 769px) {
             body footer .footer-content__contact li p {
               font-size: 0.9rem;
               width: 75%; } }
     body footer .footer-content__sitemap {
       list-style: none;
       margin-bottom: 2.5rem; }
-      @media only screen and (min-width: 1440px) {
+      @media only screen and (min-width: 769px) {
         body footer .footer-content__sitemap {
           width: 30%; } }
-      @media only screen and (min-width: 1440px) {
+      @media only screen and (min-width: 769px) {
         body footer .footer-content__sitemap ul {
           display: flex;
           flex-wrap: wrap;
@@ -349,7 +349,7 @@ body {
         align-items: flex-start;
         justify-content: flex-start;
         margin-bottom: 1rem; }
-        @media only screen and (min-width: 1440px) {
+        @media only screen and (min-width: 769px) {
           body footer .footer-content__sitemap ul li {
             margin-right: 7rem; } }
         body footer .footer-content__sitemap ul li a {
@@ -364,7 +364,7 @@ body {
       display: flex;
       justify-content: center;
       align-items: center; }
-      @media only screen and (min-width: 1440px) {
+      @media only screen and (min-width: 769px) {
         body footer .footer-content__social {
           width: 30%;
           justify-content: start; } }
@@ -397,7 +397,7 @@ body {
       font-size: 0.6rem;
       text-align: center;
       margin-bottom: 3rem; }
-      @media only screen and (min-width: 1440px) {
+      @media only screen and (min-width: 769px) {
         body footer .copy {
           text-align: end;
           padding-right: 4rem;
